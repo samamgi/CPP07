@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma once
+#ifndef ITER_HPP
+# define ITER_HPP
 
 #include <iomanip>
 #include <iostream>
@@ -63,3 +64,5 @@ void	func_nonconst(T &value)
 		i++;
 	}
 }
+
+#endif

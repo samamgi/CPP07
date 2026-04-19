@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma once
+#ifndef WHATEVER_HPP
+# define WHATEVER_HPP
 
 #include <iostream>
 #include <iomanip>
@@ -40,3 +41,5 @@ T const &max(T const &a, T const &b)
 		return (b);
 	return (a);
 }
+
+#endif
